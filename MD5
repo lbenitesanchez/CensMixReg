@@ -1,0 +1,17 @@
+3ae2c8827e1fa8a27e07939d10f7145a *DESCRIPTION
+949385eb0ecda0ca727d0b4cad54291b *NAMESPACE
+6144dc4d41191727cbb28c20fcc6ca6c *R/CensMixReg.R
+5c007b087af8b152dbbe7907dc8ac50e *R/CensMixRegEM.R
+974c62617d7cbc9f3e6ed4c4fbfe2448 *R/CensMmix.R
+0c1a463b37d3ee1c677f27886aea3924 *R/CensMmixEM.R
+218457aa00d2662be84aeccb47dc1736 *R/UtilityFunctions.R
+8b4062d0f4212b46e357bc77bbf60e2b *R/utilsFMtMC.R
+9f519c1c9df4fb3f100960dc0c5e7898 *data/concentration.txt.gz
+770a87fea5c5deec2add48b8bbc0dbe2 *data/wage.rates.txt.gz
+0a2cd45e2466ae76e0ced854533909e5 *man/CensMixReg-package.Rd
+d2e5445919d0f01f08c34505f076806c *man/CensMixReg.Rd
+e779f2a7497196c0d82ff487b74b5854 *man/CensMmix.Rd
+fba1d7803b578b1d8fdf23bcaa172c28 *man/concentration.Rd
+0702dfdb40d9b679fadbad6364e56989 *man/imm.fmcr.Rd
+363861509d8c3e3ee0273fca8460f254 *man/rmmixcr.Rd
+920beeae492a3a26912c6f97746ad49f *man/wage.rates.Rd

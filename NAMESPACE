@@ -1,0 +1,6 @@
+export(CensMixReg,imm.fmcr)
+export(CensMmix,rmmixcr)
+importFrom("stats","kmeans","dnorm","pnorm","dt","optimize","pt","var","rmultinom","runif","rnorm","rgamma")
+importFrom("mixsmsn","rmix")
+import("mvtnorm")
+import("mnormt")
