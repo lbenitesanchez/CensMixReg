@@ -1,4 +1,4 @@
-export(CensMixReg,imm.fmcr)
+export(CensMixReg)
 export(CensMmix,rmmixcr)
 importFrom("stats","kmeans","dnorm","pnorm","dt","optimize","pt","var","rmultinom","runif","rnorm","rgamma")
 importFrom("mixsmsn","rmix")
