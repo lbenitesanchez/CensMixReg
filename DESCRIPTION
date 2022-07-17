@@ -1,7 +1,7 @@
 Package: CensMixReg
 Type: Package
 Title: Censored Linear Mixture Regression Models
-Version: 1.0
+Version: 3.1
 Date: 2016-08-10
 Author: Luis Benites Sanchez[cre, aut], Victor Hugo Lachos[cre, aut],
         Edgar J. Lopez Moreno [ctb]
