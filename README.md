@@ -2,11 +2,11 @@
 
 *Fit censored linear regression models where the random errors follow a finite mixture of Normal or Student-t distributions. Fit censored linear models of finite mixture multivariate Student-t and Normal distributions.*
 
-**Version:** 	1.0
+**Version:** 	3.1
 
-**Imports:** 	mixsmsn, mnormt, mvtnorm
+**Imports:** 	mixsmsn, mnormt, mvtnorm, ClusterR, trimcluster
 
-**Published:** 	2016-08-08
+**Published:** 	2022-07-17
 
 **Author:** 	Luis Benites Sanchez[cre, aut], Victor Hugo Lachos[cre, aut], Edgar J. Lopez Moreno [ctb]
 
