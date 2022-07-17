@@ -1,0 +1,42 @@
+fm.smn.cr <- function(cc, y, x1, Abetas = NULL, medj= NULL, sigma2 = NULL, pii = NULL, nu=NULL, g = NULL, family = "Normal", error = 0.00001, iter.max = 100, aitken = TRUE)
+{
+  #Running the algorithm
+  #Abetas = NULL; medj= NULL; sigma2 = NULL; pii = NULL; nu=NULL; g = 2; get.init = TRUE; criteria = TRUE; group = FALSE; family = "T"; error = 10^-6; iter.max = 100; obs.prob= FALSE; kmeans.param = NULL;aitken = TRUE
+  out <- CensMixRegEM(cc, y, x1, Abetas, medj, sigma2, pii, nu, g, family, error, iter.max, aitken)
+  #show result
+  cat('\n')
+  cat('---------------------------------------------------------\n')
+  cat('           Censored linear mixture regression model      \n')
+  cat('---------------------------------------------------------\n')
+  cat('\n')
+  cat('Observations =',length(y))
+  cat('\n')
+  cat('-----------\n')
+  cat('Estimates\n')
+  cat('-----------\n')
+  cat('\n')
+  #tttable           <- data.frame(out$ttable,c(EP,0))
+  #colnames(tttable) <- c("Estimate","SE")
+  print(round(out$ttable,5))
+  cat('------------------------\n')
+  cat('Model selection criteria\n')
+  cat('------------------------\n')
+  cat('\n')
+  critFin  <- c(out$loglik, out$aic, out$bic, out$edc)
+  critFin  <- round(t(as.matrix(critFin)),digits=3)
+  dimnames(critFin) <- list(c("Value"),c("Loglik", "AIC", "BIC","EDC"))
+  print(critFin)
+  cat('-------\n')
+  cat('Details\n')
+  cat('-------\n')
+  cat('\n')
+  cat('Iterations =',out$iter)
+  cat('\n')
+  cat("Processing time =",out$time,units(out$time))
+  cat('\n')
+  res            <- list(Abetas = out$Abetas, medj=out$medj, sigma2=out$sigma2, pii=out$pii, nu=out$nu, ttable = out$table, u0=out$u0, u1=out$u1, u2=out$u2, loglik=out$loglik, AIC=out$aic, BIC=out$bic, EDC=out$edc, time = out$time, iter=out$iter, convergence=out$convergence)
+  obj.out        <- list(res = res)
+  class(obj.out) <- family
+  return(obj.out)
+}
+
