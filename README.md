@@ -8,8 +8,8 @@
 
 **Published:** 	2022-07-17
 
-**Author:** 	Luis Benites Sanchez[cre, aut], Victor Hugo Lachos[cre, aut], Edgar J. Lopez Moreno [ctb]
+**Author:** 	Luis Benites Sanchez[cre, aut], Victor Hugo Lachos[cre, aut], Edgar J. Lopez Moreno [ctb], Camila B. Zeller [ctb]
 
 **Maintainer:** 	Luis Benites Sanchez <lbenitesanchez at gmail.com>
 
-**License:** 	GPL-2 | GPL-3 [expanded from: GPL (≥ 2)]
+**License:** 	GPL (>= 2)
