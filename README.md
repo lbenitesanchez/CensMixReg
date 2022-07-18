@@ -14,5 +14,7 @@
 
 **License:** 	GPL (>= 2)
 
-library(devtools)
-install_github("lbenitesanchez/CensMixReg",force = TRUE)
+  
+*library(devtools)
+ 
+*install_github("lbenitesanchez/CensMixReg",force = TRUE)
