@@ -13,3 +13,6 @@
 **Maintainer:** 	Luis Benites Sanchez <lbenitesanchez at gmail.com>
 
 **License:** 	GPL (>= 2)
+
+library(devtools)
+install_github("lbenitesanchez/CensMixReg",force = TRUE)
